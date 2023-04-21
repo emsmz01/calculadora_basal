@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body{
-    background: #ba8de7; 
+    background: #e0d6eb; 
     font-family: 'Montserrat', sans-serif;
     color: #3E363F;
 }
@@ -27,7 +27,8 @@ body{
 }
 
 #detalle{
-    background: #FF416C;
+    /*background: #a27ea3;*/
+    background: #66beab;
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
@@ -54,8 +55,8 @@ button {
 	font-weight: bold;
 	padding: 12px 45px;
 	border-radius: 30px;
-	background-color: #FF416C;
-	border: 1px solid #FF416C;
+	background-color: #66beab;
+	border: 1px solid #66beab;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: 1px;
