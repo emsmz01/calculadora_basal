@@ -7,7 +7,7 @@ body {
 }
 
 #contenedor {
-    width: 90vw;
+    width: 70vw;
     height: 75vh;
     text-align: center;
     /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
@@ -23,7 +23,7 @@ body {
 #calculadora {
     background: white;
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
-    width: 45vw;
+    width: 35vw;
     height: 75vh;
     float: left;
 }
@@ -31,7 +31,7 @@ body {
 #detalle {
     background: #66beab;
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
-    width: 45vw;
+    width: 35vw;
     height: 75vh;
     float: left;
     color: #f6f5f7;

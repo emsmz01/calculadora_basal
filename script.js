@@ -29,7 +29,7 @@ CALCULAR.addEventListener('click', () => {
 
 function calcFlujo(peso,opcion){
     if(peso<=30){
-        return holliday(peso)/24;
+        return Math.round(holliday(peso)/24);
     }
     else{
         return Math.round(supCor(peso)*opcion);
