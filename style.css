@@ -26,6 +26,8 @@ body {
     width: 35vw;
     height: 75vh;
     float: left;
+    box-sizing: border-box;
+    padding: 30px
 }
 
 #detalle {
@@ -83,4 +85,13 @@ button:active {
     font-size: 25px;
     margin-bottom: 5px;
     display: none;
+}
+
+@media screen and (max-width: 700px){
+    #calculadora{
+        width:100%;
+    }
+    #detalle{
+        width: 100%;
+    }
 }
