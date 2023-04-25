@@ -43,11 +43,13 @@ function holliday(peso){
         let aux = resto-20;
         flujo += aux*20;
         resto -= aux;
+        return flujo + 1500;
         } 
     if (resto>10){
         let aux = resto-10;
         flujo += aux*50;
         resto -= aux;
+        return flujo + 1000;
         }
     return flujo += resto*100;
 }
